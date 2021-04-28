@@ -8,7 +8,7 @@ public class Principal {
     private static double[] fit;
     private static double taxaCross = 0.7;
     private static double taxaDeMut = 0.01;
-    private static int ind = 400;
+    private static int ind = 500;
     private static int genes = 8;
     
     public static void main(String[] args) {
@@ -64,7 +64,7 @@ public class Principal {
         return resultado;
     }
     
-    public static double fit(int x) {return (x*x)-(12*x)+16;}
+    public static double fit(int x) {return (x*x)-(18*x)+24;}
     
     public static int paiMaior() {
         double maior = fit[0];
